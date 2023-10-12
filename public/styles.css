@@ -1,8 +1,8 @@
-html{
+html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.section{
+.section {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -14,13 +14,13 @@ html{
 }
 
 
-header{
+header {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.link_list{
+.link_list {
     display: flex;
     justify-content: center;
     word-wrap: break-word;
@@ -36,41 +36,50 @@ header{
     border-bottom: 1px solid #64646429;
 }
 
-.avatar{
+.avatar {
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 50%;
     border: 2px solid #ffffff3d;
-    width: 300px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 10%;
 }
 
-.link{
+.link {
     font-weight: 400;
     text-decoration: underline;
     color: #3498db;
     font-size: 1em;
 }
 
-.header-link{
+.header-link {
     margin-left: 1em;
     margin-right: 1em;
     font-size: 1.4em;
 }
 
-body{
+body {
     background-color: rgb(26, 26, 26);
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: white
 }
 
-h1{
+h1 {
     font-size: 2em;
     margin-bottom: 0.2em;
 }
 
-p{
+p {
     color: white;
     font-size: 0.8em;
     margin-bottom: 1em;
